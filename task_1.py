@@ -27,7 +27,7 @@ def calculater():
 		print(num_1 / num_2)
 	elif opretion == '**':
 		print('{} ^ {}'.format(num_1,num_2))
-		print(num1_ ** num_2)
+		print(num_1 ** num_2)
 	elif opretion == '%':
 		print('{} % {} = '.format(num_1,num_2))
 		print(num_1 % num_2)
