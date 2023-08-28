@@ -14,22 +14,22 @@ def calculater():
 			% for modulo
 			: ''')
 	if opretion == '+':
-		print('{} + {} = '.format(num_1,num_2))
+		print('{} + {} = '.format(num_1,num_2),end="")
 		print(num_1+num_2)
 	elif opretion == '-':
-		print('{} - {} = '.format(num_1,num_2))
+		print('{} - {} = '.format(num_1,num_2),end="")
 		print(num_1 - num_2)
 	elif opretion == '*':
-		print('{} * {} = '.format(num_1,num_2))
+		print('{} * {} = '.format(num_1,num_2),end="")
 		print(num_1 * num_2)
 	elif opretion == '/':
-		print('{} + {} = '.format(num_1,num_2))
+		print('{} + {} = '.format(num_1,num_2),end="")
 		print(num_1 / num_2)
 	elif opretion == '**':
-		print('{} ^ {}'.format(num_1,num_2))
+		print('{} ^ {} = '.format(num_1,num_2),end="")
 		print(num_1 ** num_2)
 	elif opretion == '%':
-		print('{} % {} = '.format(num_1,num_2))
+		print('{} % {} = '.format(num_1,num_2),end="")
 		print(num_1 % num_2)
 	else:
 		print("Please Enter valid opretion!")
